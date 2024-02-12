@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 
-    double num1, num2, result;
+    int num1, num2, result;
     int choice;
 
     cout << "Enter first number: ";
@@ -17,15 +17,15 @@ int main()
     cout << "Enter second number: ";
     cin >> num2;
 
-    cout << " Press 1 for Addition (+) \t:" << endl;
+    cout << " Press 1 for Addition              (+)  " << endl;
 
-    cout << " Press 2 for sutractio (-) \t:" << endl;
+    cout << " Press 2 for sutractio             (-)  " << endl;
 
-    cout << " Press 3 for Multiplication (*)\t:" << endl;
+    cout << " Press 3 for Multiplication        (*) " << endl;
 
-    cout << " Press 4 for Division (/)\t:" << endl;
+    cout << " Press 4 for Division              (/) " << endl;
 
-    cout << " Press 6 for Modulus (%)\t:" << endl;
+    cout << " Press 5 for Modulus               (%) " << endl;
 
     cout << "Enter your choice: ";
     cin >> choice;
